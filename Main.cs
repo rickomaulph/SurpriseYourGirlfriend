@@ -11,7 +11,7 @@ namespace SurpriseForGirlfriend
             InitializeComponent();
             QuestionCount = 0;
             // INSERT First or Start Question here           !!!!!!!IMPORTANT
-            box_question.Text = "Do you want to be my girlfriend?";
+            box_question.Text = "I'm sorry, whatever you assume, I'm not that kind of person, it's just your fear that I didn't act on. but remember, ofi is the only one who has iko. If you're tired or scared, it's okay, but I'll always be by your side, okay?";
         }
 
         // Count for questions
@@ -26,9 +26,9 @@ namespace SurpriseForGirlfriend
             {
                 case 0: question = "Are you sure about this?"; break;
                 case 1: question = "Once you go, there is no going back, ok?"; break;
-                case 2: question = "Do you really want that much to be my GF?"; break;
+                case 2: question = "Do you really want that much to be my IKO?"; break;
                 case 3: question = "Do you know that i really love you?"; break;
-                case 4: question = "Last chance, do you really want to be my girlfriend?"; break;
+                case 4: question = "Last chance, do you really want to be my IKO?"; break;
             }
 
             // Increment and Return it
@@ -109,7 +109,7 @@ namespace SurpriseForGirlfriend
                 button_no.Visible = false;
                 button_yes.Visible = false;
                 // Display this text as last           !!!!!!!IMPORTANT
-                box_question.Text = "Ok, i am your boyfriend now :D";
+                box_question.Text = "Ok, I proud of my OPI :D";
             }
             // show question
             else { box_question.Text = question; }
